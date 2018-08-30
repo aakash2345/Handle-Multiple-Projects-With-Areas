@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Project1\Data\" />
+    <Folder Include="Areas\Project1\Models\" />
+    <Folder Include="Areas\Project2\Controllers\" />
+    <Folder Include="Areas\Project2\Data\" />
+    <Folder Include="Areas\Project2\Models\" />
+    <Folder Include="Areas\Project2\Views\" />
+    <Folder Include="Areas\Project3\Controllers\" />
+    <Folder Include="Areas\Project3\Data\" />
+    <Folder Include="Areas\Project3\Models\" />
+    <Folder Include="Areas\Project3\Views\" />
+  </ItemGroup>
+
+</Project>
